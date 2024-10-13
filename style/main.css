@@ -1,0 +1,56 @@
+* {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+a {
+  float: right;
+  font-size: 20px;
+}
+.header {
+  text-align: center;
+}
+p,
+ul {
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+}
+.project-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-row .concept,
+.project-row .designProj,
+.project-row .soprovozh {
+  flex: 1;
+  min-width: 300px;
+  max-width: 300px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.ourUslugi{
+  padding: 30px;
+}
+.imgAboutUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerAboutUs{
+  text-align: center;
+}
+.textAboutUs{
+  display: flex;
+  justify-content: space-evenly;
+}
